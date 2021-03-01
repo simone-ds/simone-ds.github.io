@@ -1,14 +1,11 @@
 body {
   margin: 50px;
   font-family: georgia, serif;
+}
 
-
-
-  }
-
-  html {
+html {
   font-size: 15px;
-  }
+}
 
   body {
   margin: 2.6rem;
@@ -53,9 +50,7 @@ display: none;
 
 
 img {
-  width: 70%;
-
-
+  width: 100%;
 }
 
 p {
@@ -81,19 +76,23 @@ ul{
 }
 
 .everything {
+  margin: 0 auto;
   width: 100%;
-
-align-items: center;
-display:flex;
-justify-content: center;
-flex-wrap: wrap;
-flex-direction: row;
-max-width: 800px;
+  align-items: center;
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  max-width: 800px;
   min-width: 400px;
   position: relative;
-  }
+}
 
-  .intro {
-    margin: 0 30px;
-      float: right;
-  }
+.cover {
+  width: 80%;
+}
+
+.intro {
+  margin: 0 30px;
+  float: right;
+}

@@ -1,13 +1,44 @@
 body {
   margin: 50px;
   font-family: georgia, serif;
+
   }
 
+  html {
+  font-size: 15px;
+  }
+
+  body {
+  margin: 2.6rem;
+  font-family: georgia, verdana, tahoma, "Trebuchet MS", helvetica, sans-serif;
+  }
+
+  h1, h2, h3, h4 {
+  font-family: georgia, serif;
+  }
+
+h1.title {
+  text-align: center;
+  background-color: rgb(79, 79, 79)
+color: white;
+break-before: 5px;
+display: none;
+
+
+}
+.title {
+  display: none;
+}
+a.gotoplay {
+  text-decoration: none;
+  color: rgb(124, 69, 87);
+}
 h1  {
   text-align: center;
-  background-color: rgb(245, 226, 230)
-color: black;
+  background-color: rgb(79, 79, 79)
+color: white;
 break-before: 5px;
+display: none;
 
 }
 
@@ -18,6 +49,7 @@ h2 {
 
 img {
   width: 100%;
+
 
 }
 
@@ -32,6 +64,7 @@ p {
 
 .first {
   border: 0px;
+  margin-top: 20px;
   background-color: rgb(124, 69, 87);
   color: white;
   font-size: 1.2em;
@@ -43,26 +76,29 @@ ul{
 }
 
 .everything {
-  width: 80%;
-  margin: 0 auto;
-  max-width: 800px;
+  width: 100%;
+align-items: center;
+display:flex;
+justify-content: center;
+flex-wrap: wrap;
+flex-direction: row;
+max-width: 800px;
+  min-width: 400px;
   }
 
 
-  .cover {
+  .intro {
+    margin: 0 30px;
+    flex: 2 1 25rem;
+    float: right;
+  }
 
     }
-.intro {
+.cover {
 
+}
 
 
   }
 
   @@media screen and (max-width: 800px) {
-
-  .cover {
-  float:none;
-  }
-  }
-
-  }

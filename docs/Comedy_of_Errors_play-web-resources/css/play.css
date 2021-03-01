@@ -5,11 +5,11 @@ html {
   -webkit-text-size-adjust: 100%;
   background: #fff;
   font-size: 16px;
-  scroll-behavior: smooth; */
+  scroll-behavior: smooth;
 }
 
 .title {
-  margin-top: 30px
+  margin-top: 30px;
 font-size:1.6rem;
 color:rgb(47, 111, 86);
 font-family: verdana, sans-serif;
@@ -210,7 +210,7 @@ padding: 25px;
 
 }
 h2.location {
-  padding-top: : 25px;
+  padding-top: 25px;
   padding-bottom: 25px;
 
 }
@@ -427,14 +427,13 @@ font-size: 1rem;
 }
 }
 
-/* when the screen is wider than 700px */
 
 @media screen and (min-width: 700px) {
 
 img {
-  width: 40%%;
+  width: 40%;
   margin-top: 0px;
-  align-content: left;
+
   margin-top: 2px;
   padding: 2rem;
   padding-right: 0px;
@@ -519,15 +518,10 @@ margin:0 auto;
 background-color: white;
 padding: 1rem 2rem;
 }
-
 p.verseline {
 margin: 0 0 0 100px;
 margin-bottom: 6px;
-text-indent: -20px;
+text-indent:-20px;
 }
-
-img {
-width:40%;
-float:right;
-margin: 0 0 2rem 1rem;
+}
 }

@@ -21,9 +21,8 @@ body {
 
 h1.title {
   text-align: center;
-  background-color: rgb(79, 79, 79)
+  background-color: rgb(79, 79, 79);
 color: white;
-break-before: 5px;
 display: none;
 
 
@@ -33,7 +32,6 @@ display: none;
 }
 h2 {
   color: rgb(124, 69, 87);
-  break-before: 5px;
   margin-top: 0;
   }
 a.gotoplay {
@@ -46,9 +44,8 @@ a {
 }
 h1  {
   text-align: center;
-  background-color: rgb(79, 79, 79)
+  background-color: rgb(79, 79, 79);
 color: white;
-break-before: 5px;
 display: none;
 
 }
@@ -94,22 +91,9 @@ flex-direction: row;
 max-width: 800px;
   min-width: 400px;
   position: relative;
-  align: center;
   }
-
 
   .intro {
     margin: 0 30px;
       float: right;
-    width: 50%
-    float: right;
   }
-
-    }
-
-}
-
-
-  }
-
-  @@media screen and (max-width: 800px) {

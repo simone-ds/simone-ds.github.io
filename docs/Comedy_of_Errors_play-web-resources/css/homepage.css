@@ -2,6 +2,8 @@ body {
   margin: 50px;
   font-family: georgia, serif;
 
+
+
   }
 
   html {
@@ -29,9 +31,18 @@ display: none;
 .title {
   display: none;
 }
+h2 {
+  color: rgb(124, 69, 87);
+  break-before: 5px;
+  margin-top: 0;
+  }
 a.gotoplay {
   text-decoration: none;
   color: rgb(124, 69, 87);
+}
+a {
+  text-decoration: none;
+  color: rgb(124, 69, 87)
 }
 h1  {
   text-align: center;
@@ -42,13 +53,10 @@ display: none;
 
 }
 
-h2 {
-  color: rgb(124, 69, 87);
-  break-before: 5px;
-  }
+
 
 img {
-  width: 100%;
+  width: 70%;
 
 
 }
@@ -77,6 +85,7 @@ ul{
 
 .everything {
   width: 100%;
+
 align-items: center;
 display:flex;
 justify-content: center;
@@ -84,17 +93,19 @@ flex-wrap: wrap;
 flex-direction: row;
 max-width: 800px;
   min-width: 400px;
+  position: relative;
+  align: center;
   }
 
 
   .intro {
     margin: 0 30px;
-    flex: 2 1 25rem;
+      float: right;
+    width: 50%
     float: right;
   }
 
     }
-.cover {
 
 }
 

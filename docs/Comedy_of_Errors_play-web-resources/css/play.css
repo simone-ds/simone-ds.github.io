@@ -269,8 +269,8 @@ position:fixed;
 top:0;
 left:0;
 width:100%;
+z-index: 10;
 }
-
 
 /* we use an unordered list but we turn off the bullets and set this block as a flex box set as a column layout as the default */
 

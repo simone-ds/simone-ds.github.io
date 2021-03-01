@@ -1,0 +1,533 @@
+
+
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  background: #fff;
+  font-size: 16px;
+  scroll-behavior: smooth; */
+}
+
+.title {
+  margin-top: 30px
+font-size:1.6rem;
+color:rgb(47, 111, 86);
+font-family: verdana, sans-serif;
+margin-bottom: 1rem;
+max-width: 30px;
+}
+
+
+h1 a, h2 a {
+  position: relative;
+  top: -364px;
+}
+.container {
+  font-family: verdana, sans-serif;
+  color: rgb(85, 85, 89);
+  position: relative;
+  text-align: center;
+  color: white;
+  width: 65%;
+  max-width: 800px;
+  margin:0 auto;
+  background-color: white;
+  padding: 1rem 2rem;
+}
+
+/* .header {
+  font-family: georgia serif;
+  color: rgb(85, 85, 89);
+  text-align: center;
+  padding: 30px;
+  font-size: 50px;
+} */
+
+.header-img {
+  padding: 0px;
+  margin-top: 0px;
+  position: fixed;
+  max-width: 800px;
+  min-width: 400px;
+}
+.centered {
+  /* position: absolute;
+  padding: none; */
+  font-family: georgia serif;
+  min-width: 50px;
+  margin-top: 260px;
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  font-size: 80px;
+  color: #404040;
+  line-height : 1.5em;
+  font-weight: bold;
+
+
+}
+
+body {
+  font-family: georgia serif;
+  margin-top: 0px;
+  margin-left : auto;
+    margin-right : auto;
+ color : #404040;
+}
+.takemeup {
+  position: fixed;
+  bottom:0;
+  right:0;
+  font-size: 2rem;
+  background-color: rgb(124, 69, 87);
+  border:none;
+  width:3rem;
+  color:white;
+  text-align: center;
+}
+
+.takemeup a {
+text-align: center;
+color:white;
+text-decoration: none;
+}
+
+.everything {
+  width: 65%;
+  max-width: 800px;
+  margin:0 auto;
+  background-color: white;
+  padding: 1rem 2rem;
+
+
+
+}
+.video-box {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+
+.video-box iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+img {
+  margin-top: 0px;
+  align-content: center;
+  margin-top: 2px;
+  padding: 2rem;
+  padding-right: 0px;
+}
+
+
+section.dramatis {
+  table-layout: fixed;
+  margin-top: 3px;
+ width: 100%;
+ border-collapse: collapse;
+ /* border: 3px solid purple; */
+ margin-bottom: 3rem;
+ padding-bottom: 1rem;
+
+
+}
+tr .Table-Style-1 {
+table-layout: fixed;
+border-collapse: collapse;
+width: 0%;
+padding: 1px;
+
+}
+th {
+  letter-spacing: 2px;
+}
+
+td {
+  letter-spacing: 1px;
+}
+section.play {
+
+}
+
+section.contents {
+
+  line-height : 1.5em;
+  font-weight: bold;
+  list-style-type : square;
+
+
+
+}
+
+div.sceneImage {
+}
+
+h1.act {
+  padding: 25px;
+  text-align: center;
+  font-size: 1.8em;
+  background: rgb(124, 69, 87);
+  color: white;
+
+
+}
+p.character {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  color: rgb(124, 69, 87);
+
+}
+p.charactername {
+  /* text-align: right; */
+  text-align: left;
+
+}
+.headerpic {
+  position: fixed;
+  margin-top: 0px;
+}
+h1.dramatishead {
+
+
+}
+h2.firstscene {
+  text-align: center;
+padding: 25px;
+    background: rgba(124, 69, 87, 0.24);
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0px
+
+
+}
+h2.location {
+  padding-top: : 25px;
+  padding-bottom: 25px;
+
+}
+p.play_location {
+  color: rgba(112, 107, 113, 0.51);
+  margin-top: 5px;
+
+}
+p.prose {
+  margin: 20px;
+
+}
+h2.scene {
+  padding: 25px;
+      background: rgba(124, 69, 87, 0.24);
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0px
+
+
+}
+p.song {
+
+}
+h2.stagedirection {
+  text-align: right;
+  font-size: 15px;
+  font-style: italic;
+
+}
+
+p.verseline {
+  margin: 20px;
+
+}
+span.character_role {
+text-align: left;
+color: grey;
+border: none;
+margin-top: 0px;
+padding: 0px;
+
+}
+
+span.stage_directions_inline {
+
+}
+
+nav {
+/* display: none; */
+background-color: rgb(124, 69, 87);
+font-family: verdana, sans-serif;
+font-size: .6rem;
+position:fixed;
+top:0;
+left:0;
+width:100%;
+}
+
+
+/* we use an unordered list but we turn off the bullets and set this block as a flex box set as a column layout as the default */
+
+nav ul {
+list-style: none;
+display:flex;
+flex-direction: column;
+text-align: center;
+}
+
+
+/* we turn off the underline and set the padding and the color */
+
+nav ul li a {
+text-decoration: none;
+margin: .5rem 0;
+display: block;
+color:black;
+}
+
+/* feeback for the user with a background when hovering hover */
+
+nav ul li:hover {
+background-color: rgba(124, 69, 87, 0.61);
+}
+
+/* also change the color of the links */
+
+nav ul li a:hover {
+color:white;
+}
+
+/* sub menus */
+
+li ul li a {
+margin: .3rem 0;
+color: rgb(36, 36, 36);
+font-size: .6rem;
+}
+
+li.home {
+flex: 1 0 auto;
+text-align: center;
+padding-left: 30px;
+margin-right: 0;
+}
+
+@media screen and (min-width: 580px) {
+
+body {
+font-size: 1rem;
+}
+}
+
+@media screen and (min-width: 700px) {
+
+  body {
+  padding-top:25px;
+  }
+
+  h1 a, h2 a {
+  position:relative;
+  top:-55px;
+  }
+
+  li.home {
+  text-align: left;
+  padding-left: 3rem;
+  margin-right: 3rem;
+  flex: 4 1 100px;
+  align-self: flex-start;
+  }
+
+/* when the screen is wide set the direction of the flex items to be in a row */
+
+nav ul {
+flex-direction: row;
+align-items:center;
+justify-content:flex-end;
+}
+
+/* the main items have a disired width of 6rem  */
+
+nav ul li {
+flex: 0 1 6rem;
+}
+
+nav ul li ul li {
+flex: 0 0 2rem;
+}
+
+li ul li a {
+padding: .3rem 0;
+/* font-size: .8rem; */
+}
+
+
+li ul {
+display:none;
+/* text-align:center; */
+position: absolute;
+background-color: rgb(187, 209, 206);
+width: 6rem;
+}
+
+/* make the width of the sub items the same as the width of the main items */
+li ul li {
+width: 6rem;
+}
+
+nav ul li:hover ul {
+display:flex;
+flex-direction: column;
+}
+
+nav ul li.home:hover {
+background:none;
+}
+
+nav ul li.home:hover a {
+color:rgba(70, 25, 40, 0.85);
+text-decoration: underline;
+}
+
+body {
+font-size: .9rem;
+}
+
+main {
+width:65%;
+max-width: 900px;
+margin:0 auto;
+/* border:1px solid red; */
+background-color: white;
+padding: 1rem 2rem;
+}
+
+p.verseline {
+margin: 0 0 0 100px;
+margin-bottom: 6px;
+text-indent: -20px;
+}
+
+img {
+width:0%;
+float:right;
+margin: 0 0 2rem 1rem;
+}
+
+@media screen and (min-width: 580px) {
+
+body {
+font-size: 1rem;
+}
+}
+
+/* when the screen is wider than 700px */
+
+@media screen and (min-width: 700px) {
+
+img {
+  width: 40%%;
+  margin-top: 0px;
+  align-content: left;
+  margin-top: 2px;
+  padding: 2rem;
+  padding-right: 0px;
+}
+  body {
+  padding-top:25px;
+  }
+
+  h1 a, h2 a {
+  position:relative;
+  top:-55px;
+  }
+
+  li.home {
+  text-align: left;
+  padding-left: 3rem;
+  margin-right: 3rem;
+  flex: 4 1 100px;
+  align-self: flex-start;
+  }
+
+/* when the screen is wide set the direction of the flex items to be in a row */
+
+nav ul {
+flex-direction: row;
+align-items:center;
+justify-content:flex-end;
+}
+
+/* the main items have a disired width of 6rem  */
+
+nav ul li {
+flex: 0 1 6rem;
+}
+
+nav ul li ul li {
+flex: 0 0 2rem;
+}
+
+li ul li a {
+padding: .3rem 0;
+/* font-size: .8rem; */
+}
+
+
+li ul {
+display:none;
+/* text-align:center; */
+position: absolute;
+background-color: rgba(126, 88, 100, 1);
+width: 6rem;
+}
+
+
+li ul li {
+width: 6rem;
+}
+
+nav ul li:hover ul {
+display:flex;
+flex-direction: column;
+}
+
+nav ul li.home:hover {
+background:none;
+}
+
+nav ul li.home:hover a {
+color:rgb(0, 0, 0);
+text-decoration: underline;
+}
+
+body {
+font-size: .9rem;
+}
+
+main {
+width:65%;
+max-width: 900px;
+margin:0 auto;
+/* border:1px solid red; */
+background-color: white;
+padding: 1rem 2rem;
+}
+
+p.verseline {
+margin: 0 0 0 100px;
+margin-bottom: 6px;
+text-indent: -20px;
+}
+
+img {
+width:40%;
+float:right;
+margin: 0 0 2rem 1rem;
+}
